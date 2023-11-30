@@ -1,16 +1,27 @@
 {
   "name": "erlc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An ER:LC API wrapper for JS/TS",
   "main": "index.js",
   "types": "src/types/index.d.ts",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["erlc", "roblox", "prc", "erlc api"],
+  "author": "0xRaptor",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.3.2"
   },
   "dependencies": {
     "node-fetch": "^3.3.2"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xRaptor/erlc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xRaptor/erlc/issues"
+  },
+  "homepage": "https://github.com/0xRaptor/erlc#readme"
 }
