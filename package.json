@@ -1,6 +1,6 @@
 {
   "name": "erlc",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An ER:LC API wrapper for JS/TS",
   "main": "index.js",
   "types": "src/types/index.d.ts",

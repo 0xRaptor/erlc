@@ -11,26 +11,28 @@ First you need to install the package.
 ### Setting Up
 Setting up is super simple:
 ```js
-    // index.js
+// index.js
     
-    const erlc = require('erlc')
-    const client = new erlc.Client({
-	    globalToken: '' // Here you enter your global token provided for the API
-	})
-	client.config() // Registers your client
+const erlc = require('erlc')
+const client = new erlc.Client({
+	globalToken: '' // Here you enter your global token provided for the API
+})
+client.config() // Registers your client
 ```
 Now you can start using API Methods - here are a few examples:
 ```js
-    // api.js
+// api.js
 	
-	const erlc = require('erlc')
+const erlc = require('erlc')
 	
-	const getServerFunc = async () => {
-		const serverId="" // The server ID you wish to target
-		const server = await erlc.getServer(serverId).catch(console.log) // Gets the server, logs any errors
+const getServerFunc = async () => {
+    const serverId="" // The server ID you wish to target
+    const server = await erlc.getServer(serverId).catch(console.log) // Gets the server, logs any errors
 		
-		console.log(server) // Logs the server object
-	}
+    console.log(server) // Logs the server object
+}
+
+getServerFunc()
 ```   
 
 ### [PRC API Docs](https://apidocs.policeroleplay.community/reference/api-reference)
